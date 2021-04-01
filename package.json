@@ -1,0 +1,40 @@
+{
+  "name": "tic-tac-toe-api",
+  "version": "1.0.0",
+  "description": "TicTacToe API challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "node dist/server.js",
+    "build-ts": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harisbr/tic-tac-toe-api.git"
+  },
+  "author": "Haris Brackovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harisbr/tic-tac-toe-api/issues"
+  },
+  "homepage": "https://github.com/harisbr/tic-tac-toe-api#readme",
+  "dependencies": {
+    "@typegoose/typegoose": "^7.6.0",
+    "@types/express": "^4.17.11",
+    "apollo-server-express": "^2.22.2",
+    "class-validator": "^0.13.1",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^14.14.37",
+    "@types/uuid": "^8.3.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
